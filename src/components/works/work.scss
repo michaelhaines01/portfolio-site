@@ -1,0 +1,33 @@
+.works {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .slider {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    .card {
+      display: flex;
+
+      height: 600px;
+      width: 1500px;
+      background-color: grey;
+      border-radius: 20px;
+      .left {
+        width: 50%;
+        height: 100%;
+        background-color: red;
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(226, 69, 148);
+      }
+    }
+  }
+}
