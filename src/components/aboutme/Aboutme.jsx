@@ -33,10 +33,7 @@ export default function Aboutme() {
       </div>
       <div className="right">
         <div className="image-container">
-          {" "}
-          <div className="surf-container">
-            <img src="./assets/surf.jpg" alt="" />
-          </div>
+          <img src="./assets/surf.jpg" alt="" />
         </div>
       </div>
     </div>

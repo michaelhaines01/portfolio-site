@@ -16,30 +16,29 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="left">
-        <div className="image-container">
-          <Particles
-            params={{
-              particles: {
-                number: {
-                  value: 50,
-                },
-                size: {
-                  value: 5,
+        <Particles
+          className="particles"
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 5,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
                 },
               },
-              interactivity: {
-                events: {
-                  onhover: {
-                    enable: true,
-                    mode: "repulse",
-                  },
-                },
-              },
-            }}
-            height="90vh"
-          />
-        </div>
+            },
+          }}
+        />
       </div>
+
       <div className="right">
         <div className="wrapper">
           <h2>Hi there, i'm</h2>

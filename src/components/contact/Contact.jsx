@@ -11,7 +11,6 @@ export default function Contact() {
     <div className="contact" id="contact">
       <div className="left">
         <div>
-          {" "}
           <h1>You can contact me on</h1>
           <div className="section-line"></div>
         </div>
