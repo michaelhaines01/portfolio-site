@@ -2,7 +2,7 @@ export const battleships = [
   { id: 1, title: "Battleships", img: "./assets/projectimage.jpg" },
 ];
 export const etch = [
-  { id: 1, title: "Etch o sketch", img: "./assets/projectimage.jpg" },
+  { id: 1, title: "Etch o sketch", img: "/assets/Etch-a-sketch.png " },
 ];
 export const calculator = [
   { id: 1, title: "Calculator", img: "./assets/Calculator.png" },

@@ -10,14 +10,20 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <div>
+        <div className="contact-container">
           <h1>You can contact me on</h1>
           <div className="section-line"></div>
         </div>
+        <div className="email">
+          <img src="./assets/email-64.png" alt="" />
+          <h3> michaelhaines01@gmail.com</h3>
+        </div>
 
-        <h2> Email: michaelhaines01@gmail.com</h2>
-        <h2>Phone number 040304709</h2>
-        <h3>github</h3>
+        <div className="phone">
+          <img src="./assets/phone60.png" alt="" />
+          <h3>+6140304709</h3>
+        </div>
+        <img src="./assets/github60.png" alt="" />
       </div>
       <div className="right">
         <h1>Leave a message</h1>

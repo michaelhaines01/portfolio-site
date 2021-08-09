@@ -17,7 +17,7 @@
     @include mobile {
       height: 50%;
     }
-    div {
+    .contact-container {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -27,7 +27,26 @@
         background-color: $mainColor;
       }
     }
+    .email {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .phone {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+      }
+    }
   }
+
   .right {
     flex: 1;
     display: flex;
@@ -54,8 +73,10 @@
         width: 300px;
         height: 30px;
         font: size 14px;
+        margin-top: 15px;
       }
       textarea {
+        margin-top: 15px;
         background-color: $secondColor;
         width: 300px;
         height: 200px;
