@@ -7,8 +7,9 @@
 
   h1 {
     overflow: hidden;
-    font-size: 50px;
-    padding-top: 25px;
+    font-size: 70px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     color: $mainColor;
     @include mobile {
       font-size: 30px;
@@ -36,7 +37,7 @@
     .item {
       display: flex;
       height: 350px;
-      width: 500px;
+      width: 620px;
       border-radius: 10px;
       overflow: hidden;
       margin: 35px 20px;

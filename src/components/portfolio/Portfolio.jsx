@@ -3,27 +3,41 @@ import { useEffect, useState } from "react";
 import CodeIcon from "@material-ui/icons/Code";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import PortfolioList from "../portfolioList/PortfolioList";
-import { battleships, etch, memory, weather, calculator } from "../../data.js";
+import {
+  battleships,
+  etch,
+  memory,
+  weather,
+  calculator,
+  tictactoe,
+  library,
+} from "../../data.js";
 export default function Portfolio() {
-  const [selected, setselected] = useState("calculator");
+  const [selected, setselected] = useState(1);
   const [data, setData] = useState([]);
 
   useEffect(() => {
     switch (selected) {
-      case "calculator":
-        setData(calculator);
-        break;
-      case "etch":
-        setData(etch);
-        break;
-      case "battleships":
+      case 1:
         setData(battleships);
         break;
-      case "memory":
+      case 2:
+        setData(etch);
+        break;
+      case 3:
+        setData(calculator);
+        break;
+      case 4:
         setData(memory);
         break;
-      case "weather":
+      case 5:
         setData(weather);
+        break;
+      case 6:
+        setData(tictactoe);
+        break;
+      case 7:
+        setData(library);
         break;
       default:
         setData(calculator);
@@ -31,26 +45,13 @@ export default function Portfolio() {
   }, [selected]);
 
   const list = [
-    {
-      id: "calculator",
-      title: "Calculator",
-    },
-    {
-      id: "etch",
-      title: "Etch o sketch",
-    },
-    {
-      id: "memory",
-      title: "Memory game",
-    },
-    {
-      id: "weather",
-      title: "Weather App",
-    },
-    {
-      id: "battle",
-      title: "Battleships",
-    },
+    { id: 1, title: "Battleships" },
+    { id: 2, title: "Etch o sketch" },
+    { id: 3, title: "Calculator" },
+    { id: 4, title: "Memory game" },
+    { id: 5, title: "Weather App" },
+    { id: 6, title: "Tic tac toe" },
+    { id: 7, title: "Library" },
   ];
   return (
     <div className="portfolio" id="portfolio">
@@ -71,11 +72,19 @@ export default function Portfolio() {
             <img src={d.img} />
 
             <div className="button-container">
-              <button>
+              <button
+                onClick={() => {
+                  window.open.href = d.link;
+                }}
+              >
                 <CodeIcon />
                 Code
               </button>
-              <button>
+              <button
+                onClick={() => {
+                  window.open.href = d.live;
+                }}
+              >
                 <VisibilityIcon />
                 Demo
               </button>

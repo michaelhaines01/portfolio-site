@@ -46,7 +46,7 @@ export default function Intro() {
           <h3>
             Web <span ref={textRef}></span>
           </h3>
-          <a href="#portfolio">
+          <a href="#aboutme">
             <img src="./assets/down.png" />
           </a>
         </div>
