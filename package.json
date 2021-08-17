@@ -1,6 +1,6 @@
 {
-  "homepage": "http://michaelhaines01.github.io/Portfolio",
   "name": "portfolio",
+  "homepage": "http://michaelhaines01.github.io/portfolio-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
