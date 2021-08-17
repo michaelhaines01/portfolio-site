@@ -74,7 +74,7 @@ export default function Portfolio() {
             <div className="button-container">
               <button
                 onClick={() => {
-                  window.open(d.link);
+                  window.open.href = d.link;
                 }}
               >
                 <CodeIcon />
@@ -82,7 +82,7 @@ export default function Portfolio() {
               </button>
               <button
                 onClick={() => {
-                  window.open(d.live);
+                  window.open.href = d.live;
                 }}
               >
                 <VisibilityIcon />

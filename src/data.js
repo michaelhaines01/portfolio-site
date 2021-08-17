@@ -21,7 +21,7 @@ export const calculator = [
     id: 3,
     title: "Calculator",
     img: "./assets/Calculator.png",
-    link: "https://github.com/michaelhaines01/Calculator.git",
+    link: "https://github.com/michaelhaines01/Calculator/calculator.git",
     live: "https://michaelhaines01.github.io/Calculator/calculator/calculator.html",
   },
 ];
@@ -31,7 +31,7 @@ export const memory = [
     title: "Memory game",
     img: "./assets/memorygame.png",
     link: "https://github.com/michaelhaines01/Memory-game.git",
-    live: "https://michaelhaines01.github.io/Memory-game/",
+    live: "",
   },
 ];
 export const weather = [
