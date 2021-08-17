@@ -74,18 +74,16 @@ export default function Portfolio() {
             <div className="button-container">
               <button
                 onClick={() => {
-                  window.open.href = d.link;
+                  window.open(d.link);
                 }}
               >
-                <CodeIcon />
                 Code
               </button>
               <button
                 onClick={() => {
-                  window.open.href = d.live;
+                  window.open(d.live);
                 }}
               >
-                <VisibilityIcon />
                 Demo
               </button>
             </div>

@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .intro {
-  background-color: palevioletred;
   display: flex;
 
   @include mobile {
@@ -11,7 +10,7 @@
 
   .left {
     flex: 0.5;
-    background-color: rgb(78, 78, 78);
+    background-color: $secondColor;
     overflow: hidden;
     .particles {
       overflow: hidden;
@@ -20,7 +19,8 @@
   }
   .right {
     flex: 0.5;
-    background-color: rgb(78, 78, 78);
+    color: white;
+    background-color: $secondColor;
     position: relative;
     .wrapper {
       width: 100%;
@@ -54,7 +54,7 @@
         }
         span {
           font-size: inherit;
-          color: $mainColor;
+          color: $thirdColor;
         }
         .ityped-cursor {
           animation: blink 1s infinite;
