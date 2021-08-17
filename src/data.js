@@ -11,7 +11,7 @@ export const etch = [
   {
     id: 2,
     title: "Etch o sketch",
-    img: "/assets/Etch-a-sketch.png",
+    img: "./assets/Etch-a-sketch.png",
     link: "https://github.com/michaelhaines01/Etch-A-Sketch.git",
     live: "https://michaelhaines01.github.io/Etch-A-Sketch/Etch-A-Sketch.html",
   },
@@ -31,7 +31,7 @@ export const memory = [
     title: "Memory game",
     img: "./assets/memorygame.png",
     link: "https://github.com/michaelhaines01/Memory-game.git",
-    live: "",
+    live: "https://michaelhaines01.github.io/Memory-game",
   },
 ];
 export const weather = [
