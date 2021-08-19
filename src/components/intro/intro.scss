@@ -59,28 +59,21 @@
         .ityped-cursor {
           animation: blink 1s infinite;
         }
-        @keyframes blink {
-          50% {
-            opacity: 1;
-          }
-          100% {
-            opacity: 0;
-          }
-        }
       }
 
       a {
         position: absolute;
         bottom: 10px;
         left: 40%;
+
         @include mobile {
           left: 45%;
         }
         img {
+          width: 60px;
           @include mobile {
             width: 30px;
           }
-          width: 60px;
         }
       }
     }
