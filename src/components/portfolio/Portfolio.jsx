@@ -77,7 +77,6 @@ export default function Portfolio() {
                   window.open(d.link);
                 }}
               >
-                <CodeIcon />
                 Code
               </button>
               <button
@@ -85,7 +84,6 @@ export default function Portfolio() {
                   window.open(d.live);
                 }}
               >
-                <VisibilityIcon />
                 Demo
               </button>
             </div>
