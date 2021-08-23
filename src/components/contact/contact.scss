@@ -44,6 +44,10 @@
           margin-right: 10px;
           height: 60px;
           width: 60px;
+          @include mobile {
+            height: 50px;
+            width: 50px;
+          }
         }
       }
       .phone {
@@ -53,6 +57,10 @@
           margin-right: 10px;
           height: 60px;
           width: 60px;
+          @include mobile {
+            height: 50px;
+            width: 50px;
+          }
         }
       }
       .github {
@@ -64,6 +72,10 @@
           height: 60px;
           width: 60px;
           cursor: pointer;
+          @include mobile {
+            height: 50px;
+            width: 50px;
+          }
         }
       }
 
@@ -75,6 +87,10 @@
           height: 60px;
           width: 60px;
           cursor: pointer;
+          @include mobile {
+            height: 50px;
+            width: 50px;
+          }
         }
       }
     }
@@ -102,14 +118,22 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-
+      @include mobile {
+        width: 90%;
+        height: 80%;
+        justify-content: space-between;
+      }
       input {
         background-color: rgb(255, 255, 255);
         width: 300px;
         height: 30px;
-        font: size 14px;
+        font-size: 14px;
         margin-top: 15px;
         font-size: 20px;
+        @include mobile {
+          height: 30px;
+          width: 150px;
+        }
       }
       textarea {
         margin-top: 15px;
@@ -118,7 +142,8 @@
         height: 200px;
         font-size: 18px;
         @include mobile {
-          height: 100px;
+          height: 200px;
+          width: 300px;
         }
       }
 
