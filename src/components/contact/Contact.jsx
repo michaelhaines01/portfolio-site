@@ -40,13 +40,27 @@ export default function Contact() {
 
           <div className="phone">
             <img src="./assets/phone60.png" alt="" />
-            <h3>+6140304709</h3>
+            <h3>0491684657</h3>
           </div>
           <div className="github">
-            <a href="https://github.com/michaelhaines01">
+            <a
+              onClick={() => {
+                window.open("https://github.com/michaelhaines01");
+              }}
+            >
               <img src="./assets/github60.png" alt="" />
             </a>
             <h3>Github</h3>
+          </div>
+          <div className="resume">
+            <a
+              onClick={() => {
+                window.open("./assets/documents/Michael_Haines_Resume.PDF");
+              }}
+            >
+              <img src="./assets/cv-64.png" alt="" />
+            </a>
+            <h3>Resume</h3>
           </div>
         </div>
       </div>

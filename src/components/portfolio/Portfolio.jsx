@@ -1,7 +1,6 @@
 import "./portfolio.scss";
 import { useEffect, useState } from "react";
-import CodeIcon from "@material-ui/icons/Code";
-import VisibilityIcon from "@material-ui/icons/Visibility";
+
 import PortfolioList from "../portfolioList/PortfolioList";
 import {
   battleships,
@@ -46,10 +45,10 @@ export default function Portfolio() {
 
   const list = [
     { id: 1, title: "Battleships" },
-    { id: 2, title: "Etch o sketch" },
-    { id: 3, title: "Calculator" },
-    { id: 4, title: "Memory game" },
-    { id: 5, title: "Weather App" },
+    { id: 2, title: "Memory game" },
+    { id: 3, title: "Weather App" },
+    { id: 4, title: "Calculator" },
+    { id: 5, title: "Etch o sketch" },
     { id: 6, title: "Tic tac toe" },
     { id: 7, title: "Library" },
   ];

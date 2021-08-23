@@ -7,16 +7,16 @@ export default function Aboutme() {
         <div className="about-container">
           <h1>About me</h1>
           <p>
-            Former traveler that was addicted to new experiences and learning 6
-            years and over 40 countries later. I arrived back in Australia I set
-            on my quest to learn programming. Intent on not going back to my
-            former job of being an electricain and telecomunicaion technician. I
-            quickly fell in love with coding. A perfect mix of tech, problem
-            solving and creativity.Well over a year later still on my learning
-            journey.I am ready to contribute and share my new skills with the
-            world . It gives you the power to create anything with no skill
-            ceiling and only limited by imagaination. In my time away from
-            learning coding, I love too surf scuba dive and ride my motorbike.
+            A former electrician and telecommunication technician, I left that
+            field in search of something I am passionate about and that
+            challenges me. 6 years of travelling and starting surfboard over 40
+            countries later, I arrived back in Australia in March 2020 and set
+            out on my quest to learn computer science. I quickly fell in love
+            with programming. A perfect mix of tech, logical problem solving and
+            creativity. That is why more than a year later, I am still on my
+            learning journey, and I now feel, I am ready to share my skills with
+            world! I enjoy spending the rest of my time enjoying life on the
+            Peninsula, surfing, scuba diving and riding my motorbike.
           </p>
         </div>
         <div className="skills-container">
@@ -33,7 +33,7 @@ export default function Aboutme() {
       </div>
       <div className="right">
         <div className="image-container">
-          <img src="./assets/surf.jpg" alt="" />
+          <img src="./assets/surf-image.jpeg" alt="" />
         </div>
       </div>
     </div>
