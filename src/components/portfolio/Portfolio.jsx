@@ -21,16 +21,16 @@ export default function Portfolio() {
         setData(battleships);
         break;
       case 2:
-        setData(etch);
-        break;
-      case 3:
-        setData(calculator);
-        break;
-      case 4:
         setData(memory);
         break;
-      case 5:
+      case 3:
         setData(weather);
+        break;
+      case 4:
+        setData(calculator);
+        break;
+      case 5:
+        setData(etch);
         break;
       case 6:
         setData(tictactoe);
@@ -39,7 +39,7 @@ export default function Portfolio() {
         setData(library);
         break;
       default:
-        setData(calculator);
+        setData(battleships);
     }
   }, [selected]);
 
@@ -69,7 +69,6 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className="item">
             <img src={d.img} />
-
             <div className="button-container">
               <button
                 onClick={() => {

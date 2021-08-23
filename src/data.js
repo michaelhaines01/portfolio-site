@@ -21,7 +21,7 @@ export const calculator = [
     id: 3,
     title: "Calculator",
     img: "./assets/Calculator.png",
-    link: "https://github.com/michaelhaines01/Calculator/calculator.git",
+    link: "https://github.com/michaelhaines01/Calculator/tree/master/calculator",
     live: "https://michaelhaines01.github.io/Calculator/calculator/calculator.html",
   },
 ];
