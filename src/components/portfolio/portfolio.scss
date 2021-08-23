@@ -59,6 +59,8 @@
         position: absolute;
         width: 280px;
         justify-content: space-between;
+        @include mobile {
+        }
         button {
           display: flex;
           align-items: center;
@@ -69,6 +71,10 @@
           border: none;
           font-size: 30px;
           padding: 10px;
+          @include mobile {
+            width: 60px;
+            font-size: 20px;
+          }
         }
         &button:focus {
           outline: none !important;
