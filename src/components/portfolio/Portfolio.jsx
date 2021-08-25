@@ -9,7 +9,7 @@ import {
   weather,
   calculator,
   tictactoe,
-  library,
+  shoppingcart,
 } from "../../data.js";
 export default function Portfolio() {
   const [selected, setselected] = useState(1);
@@ -21,22 +21,22 @@ export default function Portfolio() {
         setData(battleships);
         break;
       case 2:
-        setData(memory);
+        setData(shoppingcart);
         break;
       case 3:
-        setData(weather);
+        setData(memory);
         break;
       case 4:
-        setData(calculator);
+        setData(weather);
         break;
       case 5:
-        setData(etch);
+        setData(calculator);
         break;
       case 6:
-        setData(tictactoe);
+        setData(etch);
         break;
       case 7:
-        setData(library);
+        setData(tictactoe);
         break;
       default:
         setData(battleships);
@@ -45,12 +45,12 @@ export default function Portfolio() {
 
   const list = [
     { id: 1, title: "Battleships" },
-    { id: 2, title: "Memory game" },
-    { id: 3, title: "Weather App" },
-    { id: 4, title: "Calculator" },
-    { id: 5, title: "Etch o sketch" },
-    { id: 6, title: "Tic tac toe" },
-    { id: 7, title: "Library" },
+    { id: 2, title: "Shopping cart" },
+    { id: 3, title: "Memory game" },
+    { id: 4, title: "Weather App" },
+    { id: 5, title: "Calculator" },
+    { id: 6, title: "Etch o sketch" },
+    { id: 7, title: "Tic tac toe" },
   ];
   return (
     <div className="portfolio" id="portfolio">

@@ -54,12 +54,12 @@ export const tictactoe = [
   },
 ];
 
-export const library = [
+export const shoppingcart = [
   {
     id: 7,
-    title: "Library",
-    img: "./assets/library.png",
-    link: "https://github.com/michaelhaines01/Online-library.git",
-    live: "https://michaelhaines01.github.io/Online-library/library.html",
+    title: "Shopping cart",
+    img: "./assets/Shopping-cart.png",
+    link: "https://github.com/michaelhaines01/Shopping-cart.git",
+    live: "http://michaelhaines01.github.io/Shopping-cart",
   },
 ];
