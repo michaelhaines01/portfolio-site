@@ -21,7 +21,7 @@ export const etch = [
     img: "/assets/Etch-a-sketch.png",
     link: "https://github.com/michaelhaines01/Etch-A-Sketch.git",
     live: "https://michaelhaines01.github.io/Etch-A-Sketch/Etch-A-Sketch.html",
-    description: "A virtual take on the an Etch A SKetch",
+    description: "A virtual take on the an Etch A SKetch.",
     tech: [
       "/assets/html-logo-color.png",
       "/assets/css-logo-color.png",
@@ -51,7 +51,7 @@ export const memory = [
     img: "/assets/memorygame.png",
     link: "https://github.com/michaelhaines01/Memory-game.git",
     live: "https://michaelhaines01.github.io/Memory-game",
-    description: "A game to test your memory. Dont click the same tile twice",
+    description: "A game to test your memory, don't click the same tile twice",
     tech: [
       "/assets/react-logo-color.png",
       "/assets/css-logo-color.png",
@@ -115,7 +115,7 @@ export const inventory = [
     img: "/assets/inventory.png",
     link: "https://github.com/michaelhaines01/inventory",
     live: "https://helmet-inventory.herokuapp.com/product",
-    description: "A motorcycle helemet inventory, Focused on backend",
+    description: "A motorcycle helemet inventory, focused on backend",
     tech: [
       "/assets/bootstrap-logo-color.png",
       "/assets/handlebar-icon.png",
