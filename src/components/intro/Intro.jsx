@@ -48,7 +48,7 @@ export default function Intro() {
           </h3>
           <div className="downarrow">
             <a href="#aboutme">
-              <img src="./assets/down-arrow.png" />
+              <img src={`${process.env.PUBLIC_URL}/assets/down-arrow.png`} />
             </a>
           </div>
         </div>

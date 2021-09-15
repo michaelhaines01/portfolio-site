@@ -34,12 +34,18 @@ export default function Contact() {
         </div>
         <div className="types-container">
           <div className="email">
-            <img src="./assets/email-64.png" alt="" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/email-64.png`}
+              alt="email"
+            />
             <h3> michaelhaines01@gmail.com</h3>
           </div>
 
           <div className="phone">
-            <img src="./assets/phone60.png" alt="" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/phone60.png`}
+              alt="phone"
+            />
             <h3>0491684657</h3>
           </div>
           <div className="github">
@@ -48,7 +54,10 @@ export default function Contact() {
                 window.open("https://github.com/michaelhaines01");
               }}
             >
-              <img src="./assets/github60.png" alt="" />
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/github60.png`}
+                alt="github"
+              />
             </a>
             <h3>Github</h3>
           </div>
@@ -58,7 +67,7 @@ export default function Contact() {
                 window.open("./assets/documents/Michael_Haines_Resume.PDF");
               }}
             >
-              <img src="./assets/cv-64.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/assets/cv-64.png`} alt="" />
             </a>
             <h3>Resume</h3>
           </div>

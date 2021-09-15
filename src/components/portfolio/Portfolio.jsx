@@ -7,8 +7,7 @@ import {
   etch,
   memory,
   weather,
-  calculator,
-  tictactoe,
+  inventory,
   shoppingcart,
 } from "../../data.js";
 export default function Portfolio() {
@@ -18,39 +17,36 @@ export default function Portfolio() {
   useEffect(() => {
     switch (selected) {
       case 1:
-        setData(battleships);
+        setData(inventory);
         break;
       case 2:
-        setData(shoppingcart);
+        setData(battleships);
         break;
       case 3:
-        setData(memory);
+        setData(shoppingcart);
         break;
       case 4:
-        setData(weather);
+        setData(memory);
         break;
       case 5:
-        setData(calculator);
+        setData(weather);
         break;
       case 6:
         setData(etch);
         break;
-      case 7:
-        setData(tictactoe);
-        break;
+
       default:
         setData(battleships);
     }
   }, [selected]);
 
   const list = [
-    { id: 1, title: "Battleships" },
-    { id: 2, title: "Shopping cart" },
-    { id: 3, title: "Memory game" },
-    { id: 4, title: "Weather App" },
-    { id: 5, title: "Calculator" },
+    { id: 1, title: "Inventory" },
+    { id: 2, title: "Battleships" },
+    { id: 3, title: "Shopping cart" },
+    { id: 4, title: "Memory game" },
+    { id: 5, title: "Weather App" },
     { id: 6, title: "Etch o sketch" },
-    { id: 7, title: "Tic tac toe" },
   ];
   return (
     <div className="portfolio" id="portfolio">
@@ -68,22 +64,46 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <img src={d.img} />
-            <div className="button-container">
-              <button
-                onClick={() => {
-                  window.open(d.link);
-                }}
-              >
-                Code
-              </button>
-              <button
-                onClick={() => {
-                  window.open(d.live);
-                }}
-              >
-                Demo
-              </button>
+            <img
+              className="project-image"
+              src={`${process.env.PUBLIC_URL}${d.img}`}
+            />
+            <div className="left">
+              <div className="tech-container">
+                <h2>Built with</h2>
+                <div className="icon-container">
+                  {d.tech.map((tech) => (
+                    <img
+                      className="tech-icon"
+                      src={`${process.env.PUBLIC_URL}${tech}`}
+                      alt="tech"
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+            <div className="right">
+              <div className="info-container">
+                <h2>{d.title}</h2>
+                <h3>{d.description}</h3>
+
+                <div className="button-container">
+                  <button
+                    onClick={() => {
+                      window.open(d.link);
+                    }}
+                  >
+                    Code
+                  </button>
+                  <button
+                    onClick={() => {
+                      window.open(d.live);
+                    }}
+                  >
+                    Demo
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         ))}

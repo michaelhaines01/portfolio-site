@@ -21,19 +21,47 @@ export default function Aboutme() {
         </div>
         <div className="skills-container">
           <h3>Skills</h3>
-          <img src="./assets/css350.png" alt="CSS" />
-          <img src="./assets/django50.png" alt="" />
-          <img src="./assets/git50.png" alt="" />
-          <img src="./assets/html50.png" alt="" />
-          <img src="./assets/javascriptlogo50.png" alt="" />
-          <img src="/assets/python50.png" alt="" />
-          <img src="./assets/reactnative50.png" alt="" />
-          <img src="./assets/sass50.png" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/assets/html50.png`} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/assets/css350.png`} alt="CSS" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/sass-logo-color.png`}
+            alt=""
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/handlebar-icon.png`}
+            alt=""
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/javascript-logo-color.png`}
+            alt=""
+          />
+          <img src={`${process.env.PUBLIC_URL}/assets/python50.png`} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/assets/django50.png `} alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/react-logo-color.png`}
+            alt=""
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/mongodb-icon-color.png`}
+            alt=""
+          />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/nodejs-icon-color.png`}
+            alt=""
+          />
+
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/git-logo-color.png`}
+            alt=""
+          />
         </div>
       </div>
       <div className="right">
         <div className="image-container">
-          <img src="./assets/surf-image.jpeg" alt="" />
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/surf-image.jpeg`}
+            alt=""
+          />
         </div>
       </div>
     </div>
