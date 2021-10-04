@@ -9,6 +9,7 @@ import {
   weather,
   inventory,
   shoppingcart,
+  members,
 } from "../../data.js";
 export default function Portfolio() {
   const [selected, setselected] = useState(1);
@@ -20,18 +21,21 @@ export default function Portfolio() {
         setData(inventory);
         break;
       case 2:
-        setData(battleships);
+        setData(members);
         break;
       case 3:
-        setData(shoppingcart);
+        setData(battleships);
         break;
       case 4:
-        setData(memory);
+        setData(shoppingcart);
         break;
       case 5:
-        setData(weather);
+        setData(memory);
         break;
       case 6:
+        setData(weather);
+        break;
+      case 7:
         setData(etch);
         break;
 
@@ -42,11 +46,12 @@ export default function Portfolio() {
 
   const list = [
     { id: 1, title: "Inventory" },
-    { id: 2, title: "Battleships" },
-    { id: 3, title: "Shopping cart" },
-    { id: 4, title: "Memory game" },
-    { id: 5, title: "Weather App" },
-    { id: 6, title: "Etch o sketch" },
+    { id: 2, title: "Members-only" },
+    { id: 3, title: "Battleships" },
+    { id: 4, title: "Shopping cart" },
+    { id: 5, title: "Memory game" },
+    { id: 6, title: "Weather App" },
+    { id: 7, title: "Etch o sketch" },
   ];
   return (
     <div className="portfolio" id="portfolio">
@@ -67,6 +72,7 @@ export default function Portfolio() {
             <img
               className="project-image"
               src={`${process.env.PUBLIC_URL}${d.img}`}
+              alt="project"
             />
             <div className="left">
               <div className="tech-container">

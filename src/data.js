@@ -125,3 +125,22 @@ export const inventory = [
     ],
   },
 ];
+
+export const members = [
+  {
+    id: 8,
+    title: "Members-only",
+
+    img: "/assets/members-only.png",
+    link: "https://github.com/michaelhaines01/members-only",
+    live: "https://members-only2.herokuapp.com/",
+    description: "A members only forum, focused on User authentication",
+    tech: [
+      "/assets/bootstrap-logo-color.png",
+      "/assets/handlebar-icon.png",
+      "/assets/mongodb-icon-color.png",
+      "/assets/nodejs-icon-color.png",
+      "/assets/git-logo-color.png",
+    ],
+  },
+];
