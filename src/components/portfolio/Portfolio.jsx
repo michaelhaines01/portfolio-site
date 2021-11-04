@@ -6,10 +6,10 @@ import {
   battleships,
   etch,
   memory,
-  weather,
   inventory,
   shoppingcart,
   members,
+  blog,
 } from "../../data.js";
 export default function Portfolio() {
   const [selected, setselected] = useState(1);
@@ -18,23 +18,24 @@ export default function Portfolio() {
   useEffect(() => {
     switch (selected) {
       case 1:
-        setData(inventory);
+        setData(blog);
         break;
       case 2:
-        setData(members);
+        setData(inventory);
         break;
       case 3:
-        setData(battleships);
+        setData(members);
         break;
       case 4:
-        setData(shoppingcart);
+        setData(battleships);
         break;
       case 5:
-        setData(memory);
+        setData(shoppingcart);
         break;
       case 6:
-        setData(weather);
+        setData(memory);
         break;
+
       case 7:
         setData(etch);
         break;
@@ -45,12 +46,12 @@ export default function Portfolio() {
   }, [selected]);
 
   const list = [
-    { id: 1, title: "Inventory" },
-    { id: 2, title: "Members-only" },
-    { id: 3, title: "Battleships" },
-    { id: 4, title: "Shopping cart" },
-    { id: 5, title: "Memory game" },
-    { id: 6, title: "Weather App" },
+    { id: 1, title: "Blog" },
+    { id: 2, title: "Inventory" },
+    { id: 3, title: "Members-only" },
+    { id: 4, title: "Battleships" },
+    { id: 5, title: "Shopping cart" },
+    { id: 6, title: "Memory game" },
     { id: 7, title: "Etch o sketch" },
   ];
   return (

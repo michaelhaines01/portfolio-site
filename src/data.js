@@ -128,7 +128,7 @@ export const inventory = [
 
 export const members = [
   {
-    id: 8,
+    id: 9,
     title: "Members-only",
 
     img: "/assets/members-only.png",
@@ -137,9 +137,29 @@ export const members = [
     description: "A members only forum, focused on User authentication",
     tech: [
       "/assets/bootstrap-logo-color.png",
-      "/assets/handlebar-icon.png",
+      "/assets/react-logo-color.png",
       "/assets/mongodb-icon-color.png",
       "/assets/nodejs-icon-color.png",
+      "/assets/git-logo-color.png",
+    ],
+  },
+];
+
+export const blog = [
+  {
+    id: 9,
+    title: "Blog",
+
+    img: "/assets/react-node-blog.png",
+    link: "https://github.com/michaelhaines01/react-node-blog",
+    live: "https://blog-react-node123.herokuapp.com/",
+    description: "This is an Full Stack Blog App using MERN.",
+    tech: [
+      "/assets/sass-logo-color.png",
+      "/assets/mongodb-icon-color.png",
+      "/assets/react-logo-color.png",
+      "/assets/nodejs-icon-color.png",
+      "/assets/heroku-logo.png",
       "/assets/git-logo-color.png",
     ],
   },

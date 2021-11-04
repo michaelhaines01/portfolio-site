@@ -88,6 +88,8 @@
             padding-top: 10px;
 
             img {
+              width: 45px;
+              height: 45px;
               @include mobile {
                 height: 25px;
                 width: 25px;
