@@ -67,14 +67,14 @@ export default function Portfolio() {
           />
         ))}
       </ul>
-      <div className="container">
-        {data.map((d) => (
-          <div className="item">
-            <img
-              className="project-image"
-              src={`${process.env.PUBLIC_URL}${d.img}`}
-              alt="project"
-            />
+      {data.map((d) => (
+        <div className="item">
+          <img
+            className="project-image"
+            src={`${process.env.PUBLIC_URL}${d.img}`}
+            alt="project"
+          />
+          <div className="overlay">
             <div className="left">
               <div className="tech-container">
                 <h2>Built with</h2>
@@ -113,8 +113,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 }

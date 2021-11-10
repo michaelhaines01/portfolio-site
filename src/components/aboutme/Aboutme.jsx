@@ -19,41 +19,49 @@ export default function Aboutme() {
             diving and riding my motorbike.
           </p>
         </div>
-        <div className="skills-container">
-          <h3>Skills</h3>
-          <img src={`${process.env.PUBLIC_URL}/assets/html50.png`} alt="" />
-          <img src={`${process.env.PUBLIC_URL}/assets/css350.png`} alt="CSS" />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/sass-logo-color.png`}
-            alt=""
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/handlebar-icon.png`}
-            alt=""
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/javascript-logo-color.png`}
-            alt=""
-          />
-          <img src={`${process.env.PUBLIC_URL}/assets/python50.png`} alt="" />
-          <img src={`${process.env.PUBLIC_URL}/assets/django50.png `} alt="" />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/react-logo-color.png`}
-            alt=""
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/mongodb-icon-color.png`}
-            alt=""
-          />
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/nodejs-icon-color.png`}
-            alt=""
-          />
+        <div className="skills-wrapper">
+          <h2>Skills</h2>
+          <div className="skills-container">
+            <img src={`${process.env.PUBLIC_URL}/assets/html50.png`} alt="" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/css350.png`}
+              alt="CSS"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/sass-logo-color.png`}
+              alt=""
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/handlebar-icon.png`}
+              alt=""
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/javascript-logo-color.png`}
+              alt=""
+            />
+            <img src={`${process.env.PUBLIC_URL}/assets/python50.png`} alt="" />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/django50.png `}
+              alt=""
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/react-logo-color.png`}
+              alt=""
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/mongodb-icon-color.png`}
+              alt=""
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/nodejs-icon-color.png`}
+              alt=""
+            />
 
-          <img
-            src={`${process.env.PUBLIC_URL}/assets/git-logo-color.png`}
-            alt=""
-          />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/git-logo-color.png`}
+              alt=""
+            />
+          </div>
         </div>
       </div>
       <div className="right">

@@ -37,6 +37,7 @@
         padding-left: 40px;
         text-align: left;
         font-size: 140%;
+        overflow: hidden;
         @include mobile {
           font-size: 100%;
           text-align: center;
@@ -44,12 +45,19 @@
         }
       }
     }
-    .skills-container {
+
+    .skills-wrapper {
       width: 80%;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      margin-bottom: 15px;
-      overflow: hidden;
+      h2 {
+        width: 15%;
+      }
+      .skills-container {
+        display: flex;
+        align-items: center;
+      }
     }
   }
   .right {

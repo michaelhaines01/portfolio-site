@@ -149,7 +149,6 @@ export const blog = [
   {
     id: 9,
     title: "Blog",
-
     img: "/assets/react-node-blog.png",
     link: "https://github.com/michaelhaines01/react-node-blog",
     live: "https://blog-react-node123.herokuapp.com/",
