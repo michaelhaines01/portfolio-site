@@ -9,7 +9,7 @@ export default function Aboutme() {
           <p>
             A former electrician and telecommunication technician, I left that
             field in search of something I am passionate about and that
-            challenges me. 6 years of travelling and over 40 countries later, I
+            challenges me. Years of travelling and over 40 countries later, I
             arrived back in Australia in March 2020 and set out on my quest to
             learn computer science. I quickly fell in love with programming. A
             perfect mix of tech, logical problem solving and creativity. That is
