@@ -147,7 +147,7 @@ export const members = [
 
 export const blog = [
   {
-    id: 9,
+    id: 10,
     title: "Blog",
     img: "/assets/react-node-blog.png",
     link: "https://github.com/michaelhaines01/react-node-blog",
@@ -159,6 +159,23 @@ export const blog = [
       "/assets/react-logo-color.png",
       "/assets/nodejs-icon-color.png",
       "/assets/heroku-logo.png",
+      "/assets/git-logo-color.png",
+    ],
+  },
+];
+
+export const crypto = [
+  {
+    id: 11,
+    title: "RocketBase",
+    img: "/assets/rocketbase.png",
+    link: "https://github.com/michaelhaines01/rocketbase",
+    live: "https://michaelhaines01.github.io/rocketbase/",
+    description:
+      "This app is built with React and displays cryptocurrencies based on the Coin Gecko API",
+    tech: [
+      "/assets/sass-logo-color.png",
+      "/assets/react-logo-color.png",
       "/assets/git-logo-color.png",
     ],
   },

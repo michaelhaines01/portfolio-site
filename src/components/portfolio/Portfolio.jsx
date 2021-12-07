@@ -4,12 +4,11 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import {
   battleships,
-  etch,
-  memory,
   inventory,
   shoppingcart,
   members,
   blog,
+  crypto,
 } from "../../data.js";
 export default function Portfolio() {
   const [selected, setselected] = useState(1);
@@ -18,41 +17,35 @@ export default function Portfolio() {
   useEffect(() => {
     switch (selected) {
       case 1:
-        setData(blog);
+        setData(crypto);
         break;
       case 2:
-        setData(inventory);
+        setData(blog);
         break;
       case 3:
-        setData(members);
+        setData(inventory);
         break;
       case 4:
-        setData(battleships);
+        setData(members);
         break;
       case 5:
-        setData(shoppingcart);
+        setData(battleships);
         break;
       case 6:
-        setData(memory);
+        setData(shoppingcart);
         break;
-
-      case 7:
-        setData(etch);
-        break;
-
       default:
         setData(battleships);
     }
   }, [selected]);
 
   const list = [
-    { id: 1, title: "Blog" },
-    { id: 2, title: "Inventory" },
-    { id: 3, title: "Members-only" },
-    { id: 4, title: "Battleships" },
-    { id: 5, title: "Shopping cart" },
-    { id: 6, title: "Memory game" },
-    { id: 7, title: "Etch o sketch" },
+    { id: 1, title: "RocketBase" },
+    { id: 2, title: "Blog" },
+    { id: 3, title: "Inventory" },
+    { id: 4, title: "Members-only" },
+    { id: 5, title: "Battleships" },
+    { id: 6, title: "Shopping cart" },
   ];
   return (
     <div className="portfolio" id="portfolio">
